@@ -1,0 +1,112 @@
+.container {
+    margin-top: 60px!important;
+    display: flex;
+    justify-content: space-around;
+}
+.image-grid {
+    display: flex;
+    justify-content: space-between;
+    height: 50%;
+    width: 100%;
+}
+
+.small-images {
+    width: 110px;
+    background-color: #eeeeee;
+    max-height: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+     overflow-y: auto;
+}
+.simg {
+    max-width: 80px;
+    max-height: 80px;
+    margin:5px 0;
+}
+.one-big-image {
+    background-color: #eeeeee;
+    width: 75%;
+    height: 50vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.limg{
+    max-width:95%;
+    max-height:95%;
+}
+.detail-holder {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-end;
+
+    width: 70%;
+    height: 200px;
+    margin-left: 10px;
+}
+.att{
+    padding: 5px;
+    display: flex;
+    width: 100%;
+}
+.att-title {
+    width: 40%;
+}
+
+.att-value {
+    align-self: flex-end;
+    width: 40%;
+
+}
+
+@media (max-width: 768px){
+    .container {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        padding:0px
+    }
+    .small-images{
+        width: 95%;
+        height: 80px;
+        margin-top: 15px;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        justify-content: space-around;
+        align-items: center;
+        overflow-x: auto;
+
+    }
+
+    .simg {
+        max-width: 70px;
+        margin: 0 5px;
+        max-height: 70px;
+    }
+    .image-grid {
+        display: flex;
+        justify-content: space-between;
+        flex-direction: column-reverse;
+        align-items: center;
+        width: 100%;
+    }
+
+    .one-big-image {
+        width: 95%;
+        height: 50vh;
+    }
+    .limg{
+        max-width:95%;
+        max-height:95%;
+    }
+    .detail-holder {
+        width: 95%;
+        height: 200px;
+        margin-left: 10px;
+        margin-top: 5px;
+    }
+}

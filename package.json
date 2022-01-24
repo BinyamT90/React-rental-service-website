@@ -1,0 +1,94 @@
+{
+  "name": "agenagn-frontend",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@emotion/react": "^11.4.1",
+    "@emotion/styled": "^11.3.0",
+    "@material-ui/core": "^4.12.3",
+    "@material-ui/icons": "^4.11.2",
+    "@testing-library/jest-dom": "^5.14.1",
+    "@testing-library/react": "^11.2.7",
+    "@testing-library/user-event": "^12.8.3",
+    "@types/react": "^17.0.24",
+    "@types/react-dom": "^17.0.9",
+    "@types/react-transition-group": "^1.1.7",
+    "axios": "^0.21.4",
+    "classnames": "^2.3.1",
+    "cors": "^2.8.5",
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "material-ui-dropzone": "^3.5.0",
+    "material-ui-search-bar": "^1.0.0",
+    "moment": "^2.29.1",
+    "nodemailer": "^6.6.5",
+    "react": "^17.0.2",
+    "react-animations": "^1.0.0",
+    "react-bootstrap": "^1.6.4",
+    "react-datepicker": "^4.2.0",
+    "react-dom": "^17.0.2",
+    "react-external-link": "^1.2.2",
+    "react-google-recaptcha": "^2.1.0",
+    "react-lottie": "^1.2.3",
+    "react-query": "^3.34.7",
+    "react-router-dom": "^5.3.0",
+    "react-scripts": "^4.0.3",
+    "react-search-field": "^2.0.1",
+    "react-sequence-animator": "^1.0.44",
+    "react-spring": "^9.2.4",
+    "react-transition-group": "^4.4.2",
+    "recompose": "^0.30.0",
+    "sprite-animator": "^1.11.5",
+    "styled-components": "^5.3.1",
+    "typescript": "^4.4.3",
+    "web-vitals": "^1.1.2",
+    "yup": "^0.32.9"
+  },
+  "scripts": {
+    "build": "react-scripts build --openssl-legacy-provider",
+    "start": "react-scripts start --openssl-legacy-provider",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject",
+    "cypress:open": "cypress open",
+    "start-dev": "react-scripts -r @cypress/instrument-cra start",
+    "dev": "start-test 3001 cypress",
+    "cypress": "cypress open"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "@4tw/cypress-drag-drop": "^2.0.0",
+    "@bahmutov/cy-api": "^1.5.0",
+    "@cypress/code-coverage": "^3.9.11",
+    "@cypress/instrument-cra": "^1.4.0",
+    "@cypress/react": "^5.10.0",
+    "@cypress/webpack-dev-server": "^1.6.0",
+    "@material-ui/styles": "^4.11.4",
+    "@mui/material": "^5.0.1",
+    "babel-plugin-istanbul": "^6.0.0",
+    "clsx": "^1.1.1",
+    "components": "^0.1.0",
+    "cypress": "^8.4.1",
+    "cypress-file-upload": "^5.0.8",
+    "emailjs-com": "^3.2.0",
+    "prop-types": "^15.7.2",
+    "radium": "^0.26.1",
+    "yup": "^0.32.9"
+  }
+}
